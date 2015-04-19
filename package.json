@@ -1,0 +1,32 @@
+{
+  "name": "taco-build",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {
+    "cuid": "^1.2.4",
+    "duplexify": "^3.3.0",
+    "npm-execspawn": "^1.2.0",
+    "rimraf": "^2.3.2",
+    "tar-fs": "^1.5.0"
+  },
+  "devDependencies": {
+    "standard": "^3.6.1"
+  },
+  "bin": {
+    "taco-build": "./bin.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/taco-build.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/taco-build/issues"
+  },
+  "homepage": "https://github.com/mafintosh/taco-build"
+}
