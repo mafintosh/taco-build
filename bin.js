@@ -3,6 +3,11 @@
 var build = require('./')
 var cmd = process.argv.slice(2).join(' ')
 
+if (!cmd) {
+  console.error('Usage: taco-build command')
+  process.exit(1)
+}
+
 var stream = build(cmd)
 
 stream.on('build', function (proc) {
